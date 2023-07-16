@@ -1,4 +1,4 @@
-# Banana Frenzy Agent
+# Banana Collector Agent
 
 ## Project's goal
 
