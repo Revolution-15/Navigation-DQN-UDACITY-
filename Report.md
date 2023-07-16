@@ -46,12 +46,6 @@ Especially, this implementation includes the 2 major training improvements by [D
 between the action-values and the target values .
 We address these instabilities with a novel variant of Q-learning, which uses two key ideas. First, we used a biologically inspired mechanism termed experience replay that randomizes over the data, thereby removing correlations in the observation sequence and smoothing over changes in the data distribution. Second, we used an iterative update that adjusts the action-values towards target values that are only periodically updated, thereby reducing correlations with the target.
 
-### Algorithm
-
-![Deep Q-Learning algorithm from Udacity course](./images/DQN.png)
-
-This algorithm screenshot is taken from the [Deep Reinforcement Learning Nanodegree course](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
-
 
 ### Code implementation
 
