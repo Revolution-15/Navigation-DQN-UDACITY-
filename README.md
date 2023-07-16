@@ -1,12 +1,13 @@
 # Navigation-DQN-UDACITY-
 
-
+[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 This project repository contains my work for the Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) Project 1: Navigation.
 
 ## Project's goal
 
 In this project, **the goal is to train an agent to navigate a virtual world and collect as many yellow bananas as possible while avoiding blue bananas**
 
+![Trained Agent][image1]
 ![In Project 1, train an agent to navigate a large world.](images/navigation.gif)
 
 
@@ -64,7 +65,11 @@ The task is episodic, and **in order to solve the environment, the agent must ge
     
 Execute the provided notebook within this Nanodegree Udacity Online Workspace for "project #1  Navigation" (or build your own local environment and make necessary adjustements for the path to the UnityEnvironment in the code )
 
-Note :
+Following thinga have been implemented :
+- Finding action spaces and state space of the environment.
+- A trial demo of how the environment explores and works in the unity using python API
+-  
+
 - Manually playing with the environment has not been implemented as it is not available with Udacity Online Worspace (No Virtual Screen)    
 - Watching the trained agent playing in the environment has not been implemented neither, as it is not available with Udacity Online Worspace (No Virtual Screen) and not compatible with my personal setup (see Misc : Configuration used  section)
 
