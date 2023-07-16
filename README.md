@@ -68,14 +68,15 @@ Execute the provided notebook within this Nanodegree Udacity Online Workspace fo
 Following thinga have been implemented :
 - Finding action spaces and state space of the environment.
 - A trial demo of how the environment explores and works in the unity using python API
--  
+- A DQN agent which explores the environment and trains in irder to achieve its goal, i.e, score of 13 or more in consecutive 100 episodes.
+- Total time taken for the agent to train is 5.8 min and total episodes required was 457.
+- One can visualize the agen in unity window while training the.
 
-- Manually playing with the environment has not been implemented as it is not available with Udacity Online Worspace (No Virtual Screen)    
-- Watching the trained agent playing in the environment has not been implemented neither, as it is not available with Udacity Online Worspace (No Virtual Screen) and not compatible with my personal setup (see Misc : Configuration used  section)
+### Files
 
-### Misc : Configuration used 
+- Run the Navigation.ipynb to train the agent (contains training script).
+- Nural network used is stored in model.py
+- my_agent.py consists of code for an agent to updae the Qvalues using experience replay.
 
-This agent has been trained on the Udacity provided online workspace. This environment allows to use a Nvidia K80 GPU that is used for the training. (The headless / no visualization version of the Unity environment was thus used)
 
-My setup is a "Deep Learning Dev Box", and is basically a Linux GPU Server, running Docker containers (using Nvidia Docker 2), serving Jupyter Lab notebooks which are accessed remotely via a web interface (or a ssh connection) : unfortunately this setup does not seem suitable to run Unity ML agent, with the GPU and providing a display for for the agent (See [Unity documentation](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Using-Docker.md) for more details)
 
